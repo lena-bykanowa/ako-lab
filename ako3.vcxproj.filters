@@ -21,6 +21,9 @@
     <MASM Include="szukaj4max.asm">
       <Filter>Pliki źródłowe</Filter>
     </MASM>
+    <MASM Include="liczba_przeciwna.asm">
+      <Filter>Pliki źródłowe</Filter>
+    </MASM>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
