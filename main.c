@@ -2,13 +2,17 @@
 # include <locale.h>
 void plus_jeden(int* a);
 void liczba_przeciwna(int* a);
+void odejmij_jeden(int** a);
 
 int main() {
-	//setlocale(LC_CTYPE, "Polish");
-	int m;
-	m = -5;
-	liczba_przeciwna(&m);
+	setlocale(LC_CTYPE, "Polish");
+	int k;
+	int* wsk;
 
-	printf("\n m = %d\n", m);
+	wsk = &k;
+	printf("\Proszê podaæ liczbê: ");
+	scanf_s("%d", &k, 12);
+	odejmij_jeden(&wsk);
+	printf("\nWynik = %d\n", k);
 	return 0;
 }

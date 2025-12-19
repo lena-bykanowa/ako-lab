@@ -24,6 +24,9 @@
     <MASM Include="liczba_przeciwna.asm">
       <Filter>Pliki źródłowe</Filter>
     </MASM>
+    <MASM Include="odejmij_jeden.asm">
+      <Filter>Pliki źródłowe</Filter>
+    </MASM>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">

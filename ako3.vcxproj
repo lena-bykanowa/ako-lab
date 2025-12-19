@@ -21,6 +21,7 @@
   <ItemGroup>
     <MASM Include="cwiczenie1.asm" />
     <MASM Include="liczba_przeciwna.asm" />
+    <MASM Include="odejmij_jeden.asm" />
     <MASM Include="szukaj4max.asm" />
   </ItemGroup>
   <ItemGroup>
