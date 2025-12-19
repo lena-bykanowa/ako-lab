@@ -2,8 +2,6 @@
 .model flat
 
 public _liczba_przeciwna
-.data
-	mnoznik		dd -1
 
 .code
 _liczba_przeciwna PROC
@@ -12,9 +10,7 @@ _liczba_przeciwna PROC
 	push	ebx
 
 	mov		ebx, [ebp+8]
-	mov		eax, [ebx]
-	imul	mnoznik
-	mov		[ebx], eax
+	neg		dword ptr [ebx]
 
 	pop		ebx
 	pop		ebp
