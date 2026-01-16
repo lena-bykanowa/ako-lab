@@ -24,6 +24,9 @@
     <MASM Include="nowy_exp.asm">
       <Filter>Pliki źródłowe</Filter>
     </MASM>
+    <MASM Include="przykladowy_program.asm">
+      <Filter>Pliki źródłowe</Filter>
+    </MASM>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
