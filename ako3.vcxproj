@@ -23,6 +23,7 @@
     <MASM Include="przykladowy_program.asm" />
     <MASM Include="rownanie_kwadratowe.asm" />
     <MASM Include="srednia_harm.asm" />
+    <MASM Include="suma.asm" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
