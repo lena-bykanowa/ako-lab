@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <MASM Include="int2float.asm" />
     <MASM Include="nowy_exp.asm" />
     <MASM Include="przykladowy_program.asm" />
     <MASM Include="rownanie_kwadratowe.asm" />

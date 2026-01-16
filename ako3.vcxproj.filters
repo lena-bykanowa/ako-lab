@@ -30,6 +30,9 @@
     <MASM Include="suma.asm">
       <Filter>Pliki źródłowe</Filter>
     </MASM>
+    <MASM Include="int2float.asm">
+      <Filter>Pliki źródłowe</Filter>
+    </MASM>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
