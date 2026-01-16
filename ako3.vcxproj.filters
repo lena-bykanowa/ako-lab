@@ -21,6 +21,9 @@
     <MASM Include="srednia_harm.asm">
       <Filter>Pliki źródłowe</Filter>
     </MASM>
+    <MASM Include="nowy_exp.asm">
+      <Filter>Pliki źródłowe</Filter>
+    </MASM>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">

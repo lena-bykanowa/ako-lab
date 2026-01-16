@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <MASM Include="nowy_exp.asm" />
     <MASM Include="rownanie_kwadratowe.asm" />
     <MASM Include="srednia_harm.asm" />
   </ItemGroup>
